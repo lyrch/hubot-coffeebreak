@@ -15,8 +15,6 @@
 #   Jared Wilkerson <wilkerson.jared@gmail.com>
 
 module.exports = (robot) ->
-  robot.respond /hello/, (res) ->
-    res.reply "hello!"
-
-  robot.hear /orly/, (res) ->
-    res.send "yarly"
+  robot.hear /needs coffee/, (res) ->
+    caffineAddict = res.envelope.user.name
+    res.send "#{caffineAddict} is scheduling a coffee break who is in?"
