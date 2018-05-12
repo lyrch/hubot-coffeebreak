@@ -1,16 +1,16 @@
 {
   "name": "hubot-coffeebreak",
   "description": "A script for automating coffeebreaks with friends",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Jared Wilkerson <wilkerson.jared@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, coffee, coffeebreak",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-coffeebreak.git"
+    "url": "git://github.com/lyrch/hubot-coffeebreak.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-coffeebreak/issues"
+    "url": "https://github.com/lyrch/hubot-coffeebreak/issues"
   },
   "dependencies": {},
   "peerDependencies": {
