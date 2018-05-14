@@ -2,7 +2,8 @@
 #   A script for automating coffeebreaks with friends
 #
 # Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+#   COFFEE_BREAK_DURATION
+#   COFFEE_BREAK_PARTICIPANTS
 #
 # Commands:
 #   hubot hello - <what the respond trigger does>
@@ -17,4 +18,4 @@
 module.exports = (robot) ->
   robot.hear /needs coffee/, (res) ->
     caffineAddict = res.envelope.user.name
-    res.send "#{caffineAddict} is scheduling a coffee break who is in?"
+    res.send "#{caffineAddict} is needs coffee who else is feeling caffine withdawl?"
